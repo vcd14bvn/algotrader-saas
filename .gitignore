@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment - NEVER commit these
+.env
+.env.local
+.env.production
+.env.development
+apps/backend/.env
+apps/web/.env.local
+apps/web/.env.production
+
+# Build output
+dist/
+build/
+.expo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Python eggs
+*.egg-info/
