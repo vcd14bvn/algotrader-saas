@@ -25,7 +25,7 @@ const DEMO_ANALYTICS = {
   win_rate_by_strategy: [
     { strategy: 'ORB', win_rate: 68, trades: 25, pnl: 28500 },
     { strategy: 'VWAP', win_rate: 58, trades: 22, pnl: 10250 },
-    { strategy: win_rate: 65, trades: 18, pnl: 14200 },
+    { strategy: 'AlphaX OB', win_rate: 65, trades: 18, pnl: 14200 },
   ],
   drawdown_curve: [
     { date: '2026-03-01', drawdown_pct: 0 }, { date: '2026-03-04', drawdown_pct: -2.1 },
