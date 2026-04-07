@@ -11,6 +11,7 @@ import PreMarket from './pages/PreMarket';
 import Logs from './pages/Logs';
 import Users from './pages/Users';
 import ManualTrade from './pages/ManualTrade';
+import Backtester from './pages/Backtester';
 import './index.css';
 
 const queryClient = new QueryClient();
@@ -78,6 +79,7 @@ export default function App() {
             <Route path="/logs" element={<Logs />} />
             <Route path="/users" element={<AdminRoute><Users /></AdminRoute>} />
             <Route path="/manual-trade" element={<ManualTrade />} />
+              <Route path="/backtester" element={<Backtester />} />
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

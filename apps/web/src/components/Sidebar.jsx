@@ -9,6 +9,7 @@ const NAV_ITEMS = [
   { path: '/analytics', label: 'Analytics', icon: '📈' },
   { path: '/pre-market', label: 'Pre-Market', icon: '🌅' },
   { path: '/manual-trade', label: 'Manual Trade', icon: '🎯' },
+  { path: '/backtester', label: 'OB Backtester', icon: '📊' },
   { path: '/settings', label: 'Settings', icon: '⚙️' },
   { path: '/logs', label: 'Live Logs', icon: '📡' },
 ];
