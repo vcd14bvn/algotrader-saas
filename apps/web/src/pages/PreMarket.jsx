@@ -108,7 +108,7 @@ export default function PreMarket() {
             ))}
           </tbody>
         </table>
-      </div><div style={{ padding: 16, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }}>
+      <div style={{ padding: 16, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }}>
           {data.key_levels.map((l, i) => {
             const range = l.prev_high - l.prev_low;
             const fibs = [
