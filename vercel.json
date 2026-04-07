@@ -1,6 +1,6 @@
 {
-  "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "cd apps/web && npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "apps/web/dist",
+  "installCommand": "echo skip",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
