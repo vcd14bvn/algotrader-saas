@@ -103,7 +103,7 @@ export default function Analytics() {
             <tr key={i} className="signal-row">
               <td style={{ fontFamily: 'var(--font-mono)', fontSize: 12 }}>{t.date?.slice(5)}</td>
               <td style={{ fontWeight: 600 }}>{t.index}</td>
-              <td><span style={{ fontSize: 12, fontWeight: 700, color: t.strategy === 'ORB' ? '#818CF8' : t.strategy === ? '#F97316' : '#34D399' }}>{t.strategy}</span></td>
+              <td><span style={{ fontSize: 12, fontWeight: 700, color: t.strategy === 'ORB' ? '#818CF8' : t.strategy === 'VWAP' ? '#F97316' : '#34D399' }}>{t.strategy}</span></td>
               <td style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: 'var(--color-muted)' }}>{t.option_symbol}</td>
               <td style={{ fontFamily: 'var(--font-mono)' }}>{t.entry?.toLocaleString()}</td>
               <td style={{ fontFamily: 'var(--font-mono)' }}>{t.exit?.toLocaleString()}</td>
